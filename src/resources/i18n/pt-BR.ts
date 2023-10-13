@@ -1,0 +1,40 @@
+import { appName } from '../../../package.json';
+
+export default {
+  i18n: { code: 'pt-BR', label: 'Português (Brasil)' },
+  appName,
+  welcome:
+    'Brinde ao infinito com alegria, pois as horas já idas não retrocedem; inscreva tua impressão na tela da existência',
+  welcomeSignUp:
+    'Dê as boas-vindas à jornada infinita. Estamos emocionados por você se juntar a nós. Vamos começar a explorar juntos',
+  email: 'Email',
+  emailSmall: 'Seu email é seu identificador global dentro da rede',
+  emailPlaceholder: 'd.luffy@verse.fun',
+  password: 'Senha',
+  passwordPlaceholder: 'Mínimo de 8 caracteres',
+  passwordSmall: 'Não compartilhe sua senha. Sua segurança é nossa prioridade',
+  forgotPassword: 'Esqueceu a senha?',
+  enter: 'Entrar',
+  signUp: 'Cadastrar',
+  goBack: 'Voltar',
+  name: 'Nome',
+  nameSmall: 'Pelo menos 2 caracteres',
+  namePlaceholder: 'Nami',
+  birth: 'Ano de nascimento',
+  birthSmall: 'A idade mínima permitida é de 14 anos',
+  createAccount: 'Criar conta',
+  male: 'Masculino',
+  female: 'Feminino',
+  other: 'Outro',
+  remove: 'Remover',
+  nameIsRequired: 'Pelo menos 2 caracteres no seu nome',
+  birthYearInvalid: 'Ano de nascimento inválido ou fora da idade permitida',
+  emailInvalid: 'Seu email não é válido',
+  passwordInvalid:
+    'Sua senha precisa conter pelo menos 8 caracteres e não pode possuir espaços em branco',
+  loginNow: 'Faça seu login agora mesmo',
+  signUpTitle: 'Complete seu cadastro',
+  hello: 'Olá',
+  genericError: 'Opss... tivemos um erro',
+  editProfile: 'Editar perfil',
+};
